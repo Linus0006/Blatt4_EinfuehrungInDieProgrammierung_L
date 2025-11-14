@@ -11,9 +11,9 @@ public class H2_main {
         boolean b = true;
         boolean c = true;
 
-        int input = 11; //kann nur folgende Werte annehmen: 0, 1, 10, 11
+        int input = 10; //kann nur folgende Werte annehmen: 0, 1, 10, 11
 
-        boolean E3 = (x =! y);
+        boolean E3 = (x != y);
 
         if (input == 10 || input ==11){
             x = true;
@@ -46,6 +46,6 @@ public class H2_main {
             c = false;
         }
 
-        System.out.println("a: "+a+ " b: "+b+" c: "+c+" x: "+x+" y:"+y+" Input: "+input);
+        System.out.println("a: "+a+ " b: "+b+" c: "+c+" x: "+x+" y: "+y);
     }
 }
